@@ -1,10 +1,17 @@
- function firestElem(arrnum){
-  var firest=[0];
-  return firest;
+var arrays=function(){
+	var arr=[];
+   var firest=firest;
+   var last=last
+
+
+arr.prototip.firestElem = function (arrnum){
+  this.firest=[0];
+  return this.firest;
  }
 
- function lastElem(arrnum){
-  var last=arrnum.length-1;
-  return last;
+arr.prototip.lastElem= function (arrnum){
+  this.last=arrnum.length-1;
+  return this.last;
  }
 
+}

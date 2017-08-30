@@ -9,11 +9,19 @@ var makeHashTable = function() {
       },
 
       insert: function(key, value) {
-        this._storage[hashFn(key, max)] = value;
-        if(!this._storage[hashFn(key, max)] ){
-        	return false;
+      	var puket=[];
+      	var topel=[];
+      	if(this._storage===undefined){
+         this.topel[0]=key;
+         this.topel[1]=value;
+         this.puket.push(this.topel)
+          }
+        if(this._storage[hashFn(key, max)]= value ){
+        	this.topel[0]=key;
+            this.topel[1]=value;
+            this._storage[hashFn(key, max)].push(topels)
         }
-        return true;
+       
     }
   }
   
